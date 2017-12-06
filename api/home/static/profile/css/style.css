@@ -1,0 +1,25 @@
+body,html{
+  width: 100%;
+  height: 100%;
+
+  margin-top: 0px;
+}
+h1{
+  margin: 0px;
+}
+input[type = submit]
+{
+  padding: 8px 16px;
+  background-color: rgb(242, 132, 132);
+  border-radius: 5px;
+
+  font-size: 25px;
+}
+input[type = submit]:hover
+{
+  background-color: rgb(247, 78, 78);
+  font-weight: bold;
+}
+select{
+  display: inline;
+}

@@ -1,0 +1,32 @@
+{% extends "home/header.html" %}
+
+{%block content%}
+    {% load staticfiles %}
+    <!--<link rel="stylesheet" type="text/css" href="{% static 'login/form.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'login/animate.css' %}">-->
+
+    <link rel="stylesheet" type="text/css" href="{% static 'search/from.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'search/form.js' %}">
+
+    <div class="container">
+<div class="col-md-6 col-md-offset-3">
+    <div class="form-area">
+        <form method="POST" action="/posts/form/submit/">
+        <br style="clear:both">
+                    <h3 style="margin-bottom: 25px; text-align: center;">Ask question</h3>
+					<div class="form-group">
+						<input type="text" class="form-control" id="subject" name="subject" placeholder="Query/Question" required />
+					</div>
+                    <div class="form-group">
+                    <textarea class="form-control" type="textarea" id="message" placeholder="Message" name="Message" maxlength="140" rows="7"></textarea>
+
+                    </div>
+
+        <button type="submit" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
+        </form>
+    </div>
+</div>
+</div>
+
+
+{%endblock%}

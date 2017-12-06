@@ -1,0 +1,11 @@
+#dp{
+  width: 100%;
+}
+#profile{
+  border-radius: 50%;
+  background-image: url("../images/blank-dp.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+}

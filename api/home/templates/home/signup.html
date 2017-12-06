@@ -1,0 +1,19 @@
+{% extends "home/header.html" %}
+
+{%block content%}
+{% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'login/form.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'login/animate.css' %}">
+    <div class="form animated flipInX" >
+    <h2>Login To Your Account</h2>
+    <form method="POST" action="/register/" role="form">
+        <input placeholder="Username" type="text" name="username" required></input>
+        <input placeholder="First Name" type="text" name="first_name" required></input>
+        <input placeholder="Last Name" type="text" name="last_name" required></input>
+        <input type="email" name="email" placeholder="Email">
+        <input placeholder="Password" type="password" name="password"></input>
+        <!--<input type="password" name="password_re" placeholder="Password">-->
+        <button type="submit">Sign-Up</button>
+        </form>
+    </div>
+{%endblock%}

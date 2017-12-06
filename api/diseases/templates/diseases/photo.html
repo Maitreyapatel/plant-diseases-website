@@ -1,0 +1,20 @@
+{% extends "home/header.html" %}
+
+{%block content%}
+    {% load staticfiles %}
+    <!--<link rel="stylesheet" type="text/css" href="{% static 'login/form.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'login/animate.css' %}">-->
+
+    <div class="container">
+        <div class="col-md-6">
+            <form method="POST" action="/diseases/upload/" enctype="multipart/form-data">
+                <input type="file" placeholder = "Picture" name = "picture"> Plz upload image file
+                <button type="submit">Upload</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+{%endblock%}

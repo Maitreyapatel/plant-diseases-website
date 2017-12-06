@@ -1,0 +1,24 @@
+.record{
+  background-color: rgb(213, 177, 196);
+  padding: 8px 16px;
+  border-radius: 16px;
+    box-shadow: 4px 4px rgb(209, 203, 202);
+    background-color: rgb(194, 197, 201);
+  margin-bottom: 10px;
+}
+.record:hover{
+  box-shadow: 3px 3px 10px rgb(185, 201, 183);
+    background-color: rgb(219, 215, 211);
+}
+button,input[type=submit]{
+  background-color: rgb(237, 149, 184);
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+button:hover{
+  background-color: rgb(230, 90, 161);
+}
+#amount{
+  padding: 8px 10px;
+  border-radius: 8px;
+}

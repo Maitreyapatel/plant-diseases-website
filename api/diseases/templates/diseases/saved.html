@@ -1,0 +1,32 @@
+{% extends "home/header.html" %}
+
+{%block content%}
+    {% load staticfiles %}
+    <!--<link rel="stylesheet" type="text/css" href="{% static 'login/form.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'login/animate.css' %}">-->
+
+    <link rel="stylesheet" type="text/css" href="{% static 'search/search.css' %}">
+    <!--  Search box start  -->
+        <div class="container">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-3">
+            <form action="/diseases/res/" method="post" class="search-form">
+                <div class="form-group has-feedback">
+            		<label for="search" class="sr-only">Search</label>
+            		<input type="text" class="form-control" name="search" id="search" placeholder="search">
+              		<span type="submit" class="glyphicon glyphicon-search form-control-feedback"></span>
+            	</div>
+            </form>
+        </div>
+    </div>
+</div>
+    <!-- Search box end  -->
+
+<div class="row">
+    <div class="container">
+        <center style="color: #EF9A9A">
+            <h1>{{result}}</h1>
+        </center>
+    </div>
+</div>
+{%endblock%}

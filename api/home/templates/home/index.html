@@ -1,0 +1,31 @@
+{% extends "home/header.html" %}
+
+{%block content%}
+    {% load staticfiles %}
+    <!--<link rel="stylesheet" type="text/css" href="{% static 'login/form.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'login/animate.css' %}">-->
+
+    <div class="container" style="margin-top: 10%">
+        <div class="row">
+            <div class="col-md-6" style="margin-bottom: 10%">
+                <h1 style="color: #0D47A1; font-size: 56px">PD</h1>
+                <p style="font-size: 21px">
+                    Suffering from any problems on how to protect crop from diseases or want to find suggestion from community then you are at right place. Just SignUp to experience awesomeness of the online farm problem solution. Then you are at right place.
+                    <br><br>
+                    Register your query or upload photo of your crop and find immediate solution from expert or any other farmer.
+                </p>
+				<br><br>
+				<a href="/signup"><button  style="font-size: 21px" class="btn btn-success">Sign up</button></a>
+				<a href="/login"><button style="margin-left: 20%; font-size: 21px" class="btn btn-default">Log-in</button></a>
+            </div>
+            <div class="col-md-6" style="margin-top: 10%">
+                <p style="font-size: 21px">
+                    We have advanced search engine search your queries regarding any crop diseases and find solution and expert comments and also symptoms of the diseases.
+                    <br><br>
+                    So let's get started.
+                </p>
+            </div>
+        </div>
+    </div>
+
+{%endblock%}
