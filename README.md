@@ -1,4 +1,4 @@
-# PD
+# Farmer Boy
 Website for online plant diseases analysis from images with advanced search engine.
 
 Here we have used alexnet-model for our training and we have achieved 92.3% accuracy on plant-disease verification with advanced query search
