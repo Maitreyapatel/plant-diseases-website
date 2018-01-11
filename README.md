@@ -7,20 +7,11 @@ Here we have used alexnet-model for our training and we have achieved 92.3% accu
  We have trained our model with 38 different types of leaves with one extra dataset of random images to prevent website from spammers.
  
  Here, we have mix some of the features for rural/urban farmers.
- 
- 
-<h3>Pre-requirements:</h3>
- Django <br>
- Pillow <br>
- elasticsearch <br>
- Pytorch <br>
- pickle <br>
- Numpy <br>
- torchvision <br>
+
  
  <h2> Downloads required </h2>
  Total there are two requirements.<br>
  1) For computer vision task it is to use pretrained weights. Which have to put in root directory of project "./API"
  <br>2) And database of elasticsearch. Which you have to insert it on elasticsearch by yourself.
  
- Please, mail me for any of this thing you want. If you want python code to insert data to elaseic search, which I can provide through mail. Just include whaterever you want in mail.
+ Please, mail me for any of this thing you want. If you want python code to insert data to elastic search, which I can provide through mail. Just include whaterever you want in mail.
