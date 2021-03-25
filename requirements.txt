@@ -9,7 +9,7 @@ patterns==0.3
 pickleshare==0.7.4
 Pillow==5.0.0
 pytz==2017.3
-PyYAML==3.12
+PyYAML==5.4
 six==1.11.0
 torch==0.3.0.post4
 torchvision==0.2.0
